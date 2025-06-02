@@ -1,4 +1,4 @@
-//your JS code here. If requiredconst prev = document.getElementById("prev");
+const prev = document.getElementById("prev");
 const next = document.getElementById("next");
 const circles = document.querySelectorAll(".circle");
 const progress = document.getElementById("progress");
@@ -36,4 +36,3 @@ function updateProgress() {
   prev.disabled = currentStep === 1;
   next.disabled = currentStep === circles.length;
 }
-.
